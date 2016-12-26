@@ -1,0 +1,8 @@
+Approximate component dimensions:
+            H     L     W
+Cubieboard  25    105   60
+Batteries   25    80    60
+BMS Charger 3     51    10
+Radio       3     10    10
+LCD         10    80    35
+DC-DC       12    50    25
