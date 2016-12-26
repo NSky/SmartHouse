@@ -31,3 +31,16 @@
 # Debug files
 *.dSYM/
 *.su
+
+#KiCAD
+*.000
+*.sch.swp
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.dcm
+*~
+*_autosave-*
+*.tmp
+*.net
+*.dsn
