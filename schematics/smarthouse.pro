@@ -59,7 +59,7 @@ LabSize=60
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=smarthouse-rescue
+LibName1=contrib
 LibName2=atmel
 LibName3=power
 LibName4=device
@@ -88,4 +88,3 @@ LibName26=display
 LibName27=cypress
 LibName28=siliconi
 LibName29=opto
-LibName30=contrib

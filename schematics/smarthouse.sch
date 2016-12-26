@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:smarthouse-rescue
+LIBS:contrib
 LIBS:atmel
 LIBS:power
 LIBS:device
@@ -28,7 +28,6 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
-LIBS:contrib
 LIBS:smarthouse-cache
 EELAYER 25 0
 EELAYER END
@@ -277,17 +276,6 @@ F 1 "GND" H 9400 3950 50  0000 C CNN
 F 2 "" H 9400 4100 50  0000 C CNN
 F 3 "" H 9400 4100 50  0000 C CNN
 	1    9400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V-RESCUE-smarthouse #PWR06
-U 1 1 58608ED5
-P 9900 3450
-F 0 "#PWR06" H 9900 3300 50  0001 C CNN
-F 1 "+12V" H 9900 3590 50  0000 C CNN
-F 2 "" H 9900 3450 50  0000 C CNN
-F 3 "" H 9900 3450 50  0000 C CNN
-	1    9900 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1183,5 +1171,16 @@ F 2 "" H 1350 4450 50  0000 C CNN
 F 3 "" H 1350 4450 50  0000 C CNN
 	1    1350 4450
 	0    1    1    0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 58610121
+P 9900 3450
+F 0 "#PWR?" H 9900 3300 50  0001 C CNN
+F 1 "+12V" H 9900 3590 50  0000 C CNN
+F 2 "" H 9900 3450 50  0000 C CNN
+F 3 "" H 9900 3450 50  0000 C CNN
+	1    9900 3450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
